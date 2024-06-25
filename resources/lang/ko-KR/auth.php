@@ -13,8 +13,8 @@ return array(
     |
     */
 
-    'failed' => 'These credentials do not match our records.',
-    'password' => 'The provided password is incorrect.',
-    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
+    'failed' => '이 자격 증명은 이전과 일치하지 않습니다.',
+    'password' => '비밀번호 불일치.',
+    'throttle' => '로그인 시도 횟수 초과하였습니다. :seconds 초 후에 재시도 바랍니다.',
 
 );
