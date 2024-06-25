@@ -2,7 +2,7 @@
 
 return array(
 
-    'id'         => '아이디',
+    'id'         => 'ID',
     'name'       => '이름',
     'users'      => '사용자 # 명',
 
