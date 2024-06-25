@@ -3,7 +3,7 @@
 return [
     'about_locations_title'     => '장소 란',
     'about_locations'           => '장소는 사용자, 자산, 그리고 그외의 품목들에 대한 위치 정보 추적에 사용된다',
-    'assets_rtd'                => '자산', // This has NEVER meant Assets Retired. I don't know how it keeps getting reverted.
+    'assets_rtd'                => '자산', // 이는 자산 폐기를 의미하지 않습니다. 어떻게 계속 되돌려지는지 모르겠네요.
     'assets_checkedout'         => '할당된 자산',
     'id'                        => '아이디',
     'city'                      => '시',
@@ -15,7 +15,7 @@ return [
     'print_all_assigned'        => '할당된 항목 모두 인쇄',
     'name'                      => '장소 명',
     'address'                   => '주소',
-    'address2'                   => 'Address Line 2',
+    'address2'                   => '주소2',
     'zip'                       => '우편번호',
     'locations'                 => '위치',
     'parent'                    => '상위',
@@ -32,11 +32,11 @@ return [
     'asset_serial'              => '일련번호',
     'asset_location'            => '위치',
     'asset_checked_out'         => '반출 확인',
-    'asset_expected_checkin'    => 'Expected Checkin',
+    'asset_expected_checkin'    => '예상 반입',
     'date'                      => '날짜:',
-    'phone'                     => 'Location Phone',
-    'signed_by_asset_auditor'   => 'Signed By (Asset Auditor):',
-    'signed_by_finance_auditor' => 'Signed By (Finance Auditor):',
-    'signed_by_location_manager' => 'Signed By (Location Manager):',
-    'signed_by'                 => 'Signed Off By:',
+    'phone'                     => '전화번호',
+    'signed_by_asset_auditor'   => '서명자 (자산감사인):',
+    'signed_by_finance_auditor' => '서명자(재무감사관):',
+    'signed_by_location_manager' => '서명자(위치관리자):',
+    'signed_by'                 => '서명자:',
 ];
