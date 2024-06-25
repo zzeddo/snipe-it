@@ -43,9 +43,9 @@ return [
     'avatar_upload'         => '아바타 올리기',
     'back'      			=> '이전',
     'bad_data'      		=> '찾을 수 없습니다. 잘못된 데이터 인가요?',
-    'bulkaudit'             => '대량 감사',
+    'bulkaudit'             => '일괄 감사',
     'bulkaudit_status'      => '감사 상태',
-    'bulk_checkout'  		=> '대량 반출',
+    'bulk_checkout'  		=> '일괄 반출',
     'bulk_edit'             => '일괄 수정',
     'bulk_delete'           => '일괄 삭제',
     'bulk_actions'          => '일괄 작업',
@@ -473,9 +473,9 @@ return [
     'importer_generic_error'    => '파일 가져오기가 완료되었지만 오류가 발생했습니다. 이는 일반적으로 타사 API 제한으로 인해 발생하며 가져오기 자체를 막지 않았지만 이를 확인해야 합니다.',
     'confirm' => '확인',
     'autoassign_licenses' => '라이선스 자동 할당',
-    'autoassign_licenses_help' => '이 사용자가 UI 또는 CLI 도구를 통해 라이선스 대량 할당을 허용합니다..',
-    'autoassign_licenses_help_long' => 'UI 또는 CLI 도구를 통해 라이선스를 대량 할당 받을 수 있습니다(예를 들어 직원에게만 제공하는 라이선스를 계약자에게 자동 할당하지 않을 수도 있습니다. 해당 사용자에게 개별적으로 라이선스를 할당할 수는 있지만 모든 사용자에 대한 라이선스 체크아웃 기능에는 포함되지 않습니다.)',
-    'no_autoassign_licenses_help' => '라이선스 UI 또는 CLI 도구를 통해 대량 할당할 사용자를 포함하지 마세요.',
+    'autoassign_licenses_help' => '이 사용자가 UI 또는 CLI 도구를 통해 라이선스 일괄 할당을 허용합니다..',
+    'autoassign_licenses_help_long' => 'UI 또는 CLI 도구를 통해 라이선스를 일괄 할당 받을 수 있습니다(예를 들어 직원에게만 제공하는 라이선스를 계약자에게 자동 할당하지 않을 수도 있습니다. 해당 사용자에게 개별적으로 라이선스를 할당할 수는 있지만 모든 사용자에 대한 라이선스 체크아웃 기능에는 포함되지 않습니다.)',
+    'no_autoassign_licenses_help' => '라이선스 UI 또는 CLI 도구를 통해 일괄 할당할 사용자를 포함하지 마세요.',
     'modal_confirm_generic'      => '확실합니까?',
     'cannot_be_deleted'      => '이 항목은 삭제할 수 없습니다.',
     'cannot_be_edited'      => '이 항목은 편집할 수 없습니다.',
@@ -530,7 +530,7 @@ return [
     'bulk' => [
             'delete' =>
                 [
-                'header' => '대량 삭제 :object_type',
+                'header' => '일괄 삭제 :object_type',
                 'warn'   =>  '삭제하려 합니다. :object_type|삭제하려 합니다. :count :object_type',
                 'success'   =>  ':object_type 성공적으로 삭제되었습니다.|성공적으로 삭제되었습니다 :count :object_type',
                 'error'   =>  '삭제할 수 없습니다 :object_type',
