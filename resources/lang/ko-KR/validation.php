@@ -66,8 +66,8 @@ return [
         'string'  => ':attribute 는 최소 :min 자 이어야 합니다.',
         'array'   => ':attribute는 최소 :min 항목이어야 합니다.',
     ],
-    'starts_with'          => 'The :attribute must start with one of the following: :values.',
-    'ends_with'            => 'The :attribute must end with one of the following: :values.',
+    'starts_with'          => ':attribute 는 다음 중 하나로 시작해야 합니다: :values.',
+    'ends_with'            => ':attribute 는 다음 중 하나로 끝나야 합니다: :values.',
 
     'not_in'               => '선택한 :attribute 가 부정확 합니다.',
     'numeric'              => ':attribute 는 숫자만 가능합니다.',
@@ -90,23 +90,23 @@ return [
     ],
     'string'               => ':attribute는 글자여야 합니다.',
     'timezone'             => ':attribute는 유효한 지역이어야 합니다.',
-    'two_column_unique_undeleted' => 'The :attribute must be unique across :table1 and :table2. ',
+    'two_column_unique_undeleted' => ':attribute는 :table1 과 :table2 전체에서 고유해야 합니다. ',
     'unique'               => ':attribute 는 이미 획득하였습니다.',
     'uploaded'             => ':attribute는 업로드 하지 못했습니다.',
     'url'                  => ':attribute 형식이 부정확 합니다.',
     'unique_undeleted'     => ':attribute 는 고유의 값만 가져야 합니다.',
-    'non_circular'         => 'The :attribute must not create a circular reference.',
-    'not_array'            => ':attribute cannot be an array.',
-    'disallow_same_pwd_as_user_fields' => 'Password cannot be the same as the username.',
-    'letters'              => 'Password must contain at least one letter.',
-    'numbers'              => 'Password must contain at least one number.',
-    'case_diff'            => 'Password must use mixed case.',
-    'symbols'              => 'Password must contain symbols.',
+    'non_circular'         => ':attribute 는 순환 참조가 되면 안됩니다.',
+    'not_array'            => ':attribute 배열이 될 수 없습니다.',
+    'disallow_same_pwd_as_user_fields' => '비밀번호는 사용자 이름과 동일할 수 없습니다.',
+    'letters'              => '비밀번호에는 문자가 하나 이상 포함되어야 합니다.',
+    'numbers'              => '비밀번호에는 숫자가 하나 이상 포함되어야 합니다.',
+    'case_diff'            => '비밀번호는 대소문자가 같이 사용해야 합니다.',
+    'symbols'              => '비밀번호에는 특수문자가 포함되어야 합니다.',
     'gte'                  => [
-        'numeric'          => 'Value cannot be negative'
+        'numeric'          => '값은 음수가 될 수 없습니다.'
     ],
-    'checkboxes'           => ':attribute contains invalid options.',
-    'radio_buttons'        => ':attribute is invalid.',
+    'checkboxes'           => ':attribute 잘못된 옵션을 포함하고 있습니다.',
+    'radio_buttons'        => ':attribute 잘못되었습니다.',
 
 
     /*
@@ -130,13 +130,13 @@ return [
         // date_format validation with slightly less stupid messages. It duplicates a lot, but it gets the job done :(
         // We use this because the default error message for date_format is reflects php Y-m-d, which non-PHP
         // people won't know how to format. 
-        'purchase_date.date_format'     => 'The :attribute must be a valid date in YYYY-MM-DD format',
-        'last_audit_date.date_format'   =>  'The :attribute must be a valid date in YYYY-MM-DD hh:mm:ss format',
-        'expiration_date.date_format'   =>  'The :attribute must be a valid date in YYYY-MM-DD format',
-        'termination_date.date_format'  =>  'The :attribute must be a valid date in YYYY-MM-DD format',
-        'expected_checkin.date_format'  =>  'The :attribute must be a valid date in YYYY-MM-DD format',
-        'start_date.date_format'        =>  'The :attribute must be a valid date in YYYY-MM-DD format',
-        'end_date.date_format'          =>  'The :attribute must be a valid date in YYYY-MM-DD format',
+        'purchase_date.date_format'     => ':attribute 는 YYYY-MM-DD 형태의 유효한 날짜여야 합니다.',
+        'last_audit_date.date_format'   =>  ':attribute 는 YYYY-MM-DD hh:mm:ss 형태의 유효한 날짜여야 합니다.',
+        'expiration_date.date_format'   =>  ':attribute 는 YYYY-MM-DD 형태의 유효한 날짜여야 합니다.',
+        'termination_date.date_format'  =>  ':attribute 는 YYYY-MM-DD 형태의 유효한 날짜여야 합니다.',
+        'expected_checkin.date_format'  =>  ':attribute 는 YYYY-MM-DD 형태의 유효한 날짜여야 합니다.',
+        'start_date.date_format'        =>  ':attribute 는 YYYY-MM-DD 형태의 유효한 날짜여야 합니다.',
+        'end_date.date_format'          =>  ':attribute 는 YYYY-MM-DD 형태의 유효한 날짜여야 합니다.',
 
     ],
 
@@ -158,5 +158,5 @@ return [
     | Generic Validation Messages
     |--------------------------------------------------------------------------
     */
-    'invalid_value_in_field' => 'Invalid value included in this field',
+    'invalid_value_in_field' => '필드에 잘못된 값이 포함되어 있습니다.',
 ];
