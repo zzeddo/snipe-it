@@ -7,13 +7,13 @@ return array(
     'account_not_activated'  => '이 사용자는 비활성 계정입니다.',
     'account_suspended'      => '이 사용자는 보류 계정입니다.',
     'account_banned'         => '이 사용자는 금지 계정입니다.',
-    'throttle'               => 'Too many failed login attempts. Please try again in :minutes minutes.',
+    'throttle'               => '로그인 시도 횟수를 초과하였습니다. :minutes 분 후에 재시도 바랍니다.',
 
     'two_factor' => array(
-        'already_enrolled'      => 'Your device is already enrolled.',
+        'already_enrolled'      => '장치가 이미 등록되어 있습니다..',
         'success'               => '로그인에 성공했습니다.',
-        'code_required'         => 'Two-factor code is required.',
-        'invalid_code'          => 'Two-factor code is invalid.',
+        'code_required'         => '2단계(2FA) 코드가 필요합니다.',
+        'invalid_code'          => '2단계(2FA) 코드가 잘못되었습니다.',
     ),
 
     'signin' => array(
@@ -22,8 +22,8 @@ return array(
     ),
 
     'logout' => array(
-        'error'   => 'There was a problem while trying to log you out, please try again.',
-        'success' => 'You have successfully logged out.',
+        'error'   => '로그아웃하는 중에 문제가 발생했습니다. 다시 시도해 주세요.',
+        'success' => '로그아웃 성공하였습니다.',
     ),
 
     'signup' => array(
@@ -33,7 +33,7 @@ return array(
 
     'forgot-password' => array(
         'error'   => '비밀번호 초기화 코드를 얻는 중에 문제가 발생했습니다. 다시 시도해 주세요.',
-        'success' => 'If that email address exists in our system, a password recovery email has been sent.',
+        'success' => '시스템에 있는 이메일 주소로 복구 이메일이 전송되었습니다.',
     ),
 
     'forgot-password-confirm' => array(
