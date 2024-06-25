@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'sent'	        => 'If a matching user with a valid email address exists in our system, a password recovery email has been sent.',
-    'user'			=> 'If a matching user with a valid email address exists in our system, a password recovery email has been sent.',
-    'token'         => 'This password reset token is invalid or expired, or does not match the username provided.',
-    'reset'         => 'Your password has been reset!',
-    'password_change'  => 'Your password has been updated!',
+    'sent'	        => '유효한 이메일 주소를 가진 사용자가 시스템에 존재하는 경우 비밀번호 복구 이메일이 전송되었습니다.',
+    'user'			=> '유효한 이메일 주소를 가진 사용자가 시스템에 존재하는 경우 비밀번호 복구 이메일이 전송되었습니다.',
+    'token'         => '이 비밀번호 재설정 토큰은 유효하지 않거나 만료되었거나, 제공된 사용자 이름과 일치하지 않습니다.',
+    'reset'         => '비밀번호가 초기화되었습니다!',
+    'password_change'  => '비밀번호가 변경되었습니다!',
 ];
