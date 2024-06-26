@@ -12,5 +12,5 @@ return array(
     'remaining' 			             => '잔여수량',
     'total' 			                 => '총계',
     'update'                            => '구성품 수정',
-    'checkin_limit'            => '체크인된 수량은 :assigned_qty 수량과 같거나 작거야 합니다.'
+    'checkin_limit'            => '반입된 수량은 :assigned_qty 수량과 같거나 작거야 합니다.'
 );
