@@ -7,5 +7,5 @@ return array(
     'manager'                   => '관리자',
     'location'                  => '위치',
     'create'                    => '부서 생성',
-    'update'                    => '부서 갱신',
+    'update'                    => '부서 수정',
     );
