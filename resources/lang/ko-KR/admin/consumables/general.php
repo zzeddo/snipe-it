@@ -7,5 +7,5 @@ return array(
     'item_no'                           => '항목 번호',
     'remaining' 			            => '잔여수량',
     'total' 			                => '총계',
-    'update'                            => '소모품 갱신',
+    'update'                            => '소모품 수정',
 );
