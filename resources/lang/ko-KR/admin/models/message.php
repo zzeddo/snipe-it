@@ -2,10 +2,10 @@
 
 return array(
 
-    'deleted' => 'Deleted asset model',
+    'deleted' => '삭제된 자산 모델',
     'does_not_exist' => '모델이 존재하지 않습니다.',
-    'no_association' => 'WARNING! The asset model for this item is invalid or missing!',
-    'no_association_fix' => 'This will break things in weird and horrible ways. Edit this asset now to assign it a model.',
+    'no_association' => '경고! 이 항목의 자산 모델이 잘못되었거나 누락되었습니다!',
+    'no_association_fix' => '예기치 못한 일이 발생할 수 있습니다. 지금 자산을 편집하여 모델을 할당하세요.',
     'assoc_users'	 => '이 모델은 현재 하나 이상의 자산들과 연결되어 있기에 삭제 할 수 없습니다. 자산들을 삭제하고 다시 삭제하길 시도하세요. ',
 
 
@@ -33,15 +33,15 @@ return array(
 
     'bulkedit' => array(
         'error'   		=> '변경된 항목이 없어서, 갱신되지 않습니다.',
-        'success' 		=> 'Model successfully updated. |:model_count models successfully updated.',
-        'warn'          => 'You are about to update the properties of the following model:|You are about to edit the properties of the following :model_count models:',
+        'success' 		=> '모델 변경 성공. |:model_count 개의 모델이 변경되었습니다.',
+        'warn'          => '다음 모델의 속성을 변경하려 합니다.:|다음 모델의 :model_count models 개를 변경하려 합니다.:',
 
     ),
 
     'bulkdelete' => array(
         'error'   		    => '선택된 모델이 없기에, 삭제되지 않습니다.',
-        'success' 		    => 'Model deleted!|:success_count models deleted!',
-        'success_partial' 	=> ': success_count개의 모델이 삭제되었지만, fail_count 개는 관련된 자산이 있기에 삭제할 수 없습니다.'
+        'success' 		    => '모델 삭제됨!|:success_count 개의 모델 삭제됨!',
+        'success_partial' 	=> ': success_count 개의 모델이 삭제되었지만, fail_count 개는 관련된 자산이 있기에 삭제할 수 없습니다.'
     ),
 
 );
