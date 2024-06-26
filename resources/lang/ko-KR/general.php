@@ -2,7 +2,7 @@
 
 return [
     '2FA_reset'             => '2FA 리셋',
-    'accessories'			=> '부속품들',
+    'accessories'			=> '부속품',
     'activated'			    => '활성화',
     'accepted_date'         => '반영일',
     'accessory'				=> '부속품',
@@ -290,7 +290,7 @@ return [
     'time_and_date_display' => '시간과 날짜 표시',
     'total_assets'			=> '총 자산',
     'total_licenses'		=> '총 라이선스',
-    'total_accessories'		=> '부속품들 합계',
+    'total_accessories'		=> '부속품 합계',
     'total_consumables'		=> '소모품들 합계',
     'type'  				=> '유형',
     'undeployable'			=> '사용불가',
