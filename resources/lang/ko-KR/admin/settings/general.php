@@ -116,7 +116,7 @@ return [
     'ldap_auth_filter_query'    => 'LDAP 인증 요청',
     'ldap_version'              => 'LDAP 버전',
     'ldap_active_flag'          => 'LDAP 활성 플래그',
-    'ldap_activated_flag_help'  => '이 값은 동기화된 사용자가 Snipe-IT에 로그인할 수 있는지 여부를 결정하는 데 사용됩니다. <strong> 항목을 체크인하거나 체크아웃하는 기능에는 영향을 미치지 않으며, AD/LDAP 내에서 값이 아닌 <strong> 속성 이름이어야 합니다. <br><br>이 필드가 AD/LDAP에 없는 필드 이름으로 설정되거나 AD/LDAP 필드의 값이 <code>0/code> 또는 <code>false/code>로 설정된 경우, <strong> 사용자 로그인이 비활성화됩니다. AD/LDAP 필드의 값이 <code>1</code>, <code>true</code> 또는 다른 텍스트<em>로 설정되어 있으면 사용자가 로그인할 수 있습니다. AD에서 필드가 비어 있으면 일반적으로 일시 중단되지 않은 사용자가 로그인할 수 있는 <code>userAccountControl</code> 속성을 사용합니다.',
+    'ldap_activated_flag_help'  => '이 값은 동기화된 사용자가 Snipe-IT에 로그인할 수 있는지 여부를 결정하는 데 사용됩니다. <strong> 항목을 반입하거나 반출하는 기능에는 영향을 미치지 않으며, AD/LDAP 내에서 값이 아닌 <strong> 속성 이름이어야 합니다. <br><br>이 필드가 AD/LDAP에 없는 필드 이름으로 설정되거나 AD/LDAP 필드의 값이 <code>0/code> 또는 <code>false/code>로 설정된 경우, <strong> 사용자 로그인이 비활성화됩니다. AD/LDAP 필드의 값이 <code>1</code>, <code>true</code> 또는 다른 텍스트<em>로 설정되어 있으면 사용자가 로그인할 수 있습니다. AD에서 필드가 비어 있으면 일반적으로 일시 중단되지 않은 사용자가 로그인할 수 있는 <code>userAccountControl</code> 속성을 사용합니다.',
     'ldap_emp_num'              => 'LDAP 피고용인 번호',
     'ldap_email'                => 'LDAP 이메일',
     'ldap_test'                 => '테스트 LDAP',
