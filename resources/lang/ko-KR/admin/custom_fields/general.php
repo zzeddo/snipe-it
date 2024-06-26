@@ -48,7 +48,7 @@ return [
     'db_convert_warning' => '경고. 이 필드는 사용자 필드 테이블에 <code>:db_column</code> 으로 있지만 <code>:expected</code>여야 합니다.',
     'is_unique' => '이 값은 모든 자산에서 고유해야 합니다.',
     'unique' => '고유',
-    'display_in_user_view' => '체크아웃한 사용자가 할당된 자산 보기 페이지에서 값을 볼 수 있도록 허용합니다.',
+    'display_in_user_view' => '반출한 사용자가 할당된 자산 보기 페이지에서 값을 볼 수 있도록 허용합니다.',
     'display_in_user_view_table' => '사용자에게 표시',
     'auto_add_to_fieldsets' => '모든 신규 필드세트에 자동으로 추가',
     'add_to_preexisting_fieldsets' => '기존 필드 세트에 추가',
