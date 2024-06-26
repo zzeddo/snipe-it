@@ -11,8 +11,8 @@ return [
         'file_deleted'          => '백업 파일이 삭제 되었습니다. ',
         'generated'             => '새 백업 파일이 생성되었습니다.',
         'file_not_found'        => '지정한 백업 파일을 서버에서 찾을 수 없습니다.',
-        'restore_warning'       => 'Yes, restore it. I acknowledge that this will overwrite any existing data currently in the database. This will also log out all of your existing users (including you).',
-        'restore_confirm'       => 'Are you sure you wish to restore your database from :filename?'
+        'restore_warning'       => '예, 복원할 경우 현재 데이터베이스에 있는 모든 기존 데이터를 덮어쓰게 됩며 기존 사용자(귀하 포함)도 모두 로그아웃됩니다.',
+        'restore_confirm'       => ':filename에서 데이터베이스를 복원하시겠습니까??'
     ],
     'purge' => [
         'error'     => '삭제중 오류가 발생하였습니다. ',
@@ -20,27 +20,27 @@ return [
         'success'               => '삭제된 기록들이 삭제되었습니다.',
     ],
     'mail' => [
-        'sending' => 'Sending Test Email...',
-        'success' => 'Mail sent!',
-        'error' => 'Mail could not be sent.',
-        'additional' => 'No additional error message provided. Check your mail settings and your app log.'
+        'sending' => '테스트 이메일 전송...',
+        'success' => '메일 전송!',
+        'error' => '메일 전송 실패.',
+        'additional' => '추가 오류 메시지가 없습니다. 메일 설정 및 앱 로그를 확인하세요.'
     ],
     'ldap' => [
-        'testing' => 'Testing LDAP Connection, Binding & Query ...',
-        '500' => '500 Server Error. Please check your server logs for more information.',
-        'error' => 'Something went wrong :(',
-        'sync_success' => 'A sample of 10 users returned from the LDAP server based on your settings:',
-        'testing_authentication' => 'Testing LDAP Authentication...',
-        'authentication_success' => 'User authenticated against LDAP successfully!'
+        'testing' => 'LDAP 접속, 바인딩 & 쿼리 등 테스트합니다.',
+        '500' => '500 서버 오류. 자세한 내용은 서버 로그를 확인하세요.',
+        'error' => '문제가 발생했습니다. :(',
+        'sync_success' => '설정에 따라 LDAP 서버에서 반환된 10명의 사용자 샘플:',
+        'testing_authentication' => 'LDAP 인증 테스트...',
+        'authentication_success' => '사용자가 LDAP 인증되었습니다.!'
     ],
     'webhook' => [
-        'sending' => 'Sending :app test message...',
-        'success' => 'Your :webhook_name Integration works!',
-        'success_pt1' => 'Success! Check the ',
-        'success_pt2' => ' channel for your test message, and be sure to click SAVE below to store your settings.',
-        '500' => '500 Server Error.',
-        'error' => 'Something went wrong. :app responded with: :error_message',
-        'error_redirect' => 'ERROR: 301/302 :endpoint returns a redirect. For security reasons, we don’t follow redirects. Please use the actual endpoint.',
-        'error_misc' => 'Something went wrong. :( ',
+        'sending' => ':app 테스트 메시지 전송...',
+        'success' => '당신의 :webhook_name 통합 작업!',
+        'success_pt1' => '성공! 확인하세요 ',
+        'success_pt2' => ' 테스트 메시지 채널을 선택하고 설정을 저장하려면 아래의 '저장'을 클릭하세요..',
+        '500' => '500 서버 오류.',
+        'error' => '문제가 발생했습니다. :app 응답 메세지: :error_message',
+        'error_redirect' => '오류: 301/302 :endpoint 가 리디렉션을 반환합니다. 보안상의 이유로 리디렉션하지 않습니다. 실제 단말를 사용하세요.',
+        'error_misc' => '문제가 발생했습니다. :( ',
     ]
 ];
