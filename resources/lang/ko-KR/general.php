@@ -240,6 +240,7 @@ return [
     'restored'				=> '복원됨',
     'restore'				=> '복원',
     'requestable_models'    => '요청 가능 모델',
+    'requestable_items'    => '요청 가능 항목',    
     'requested'				=> '요청됨',
     'requested_date'        => '요청일',
     'requested_assets'      => '요청 자산',
