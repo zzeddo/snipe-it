@@ -7,5 +7,5 @@ return array(
     'phone'     => '대표 번호',
     'update'    => '회사 수정',
     'name'      => '회사명',
-    'id'        => '아이디',
+    'id'        => 'ID',
 );
