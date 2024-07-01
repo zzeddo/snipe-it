@@ -160,7 +160,7 @@ return [
     'filetypes_size_help'   => '허용된 최대 업로드 크기 :size.',
     'image_filetypes_help'  => '허용된 파일 형태는 jpg, webp, png, gif, and svg 이며, 허용된 업로드 크기 :size.',
     'unaccepted_image_type'  => '이미지 파일을 읽을 수 없습니다. 허용된 파일 형태는 jpg, webp, png, gif, and svg 입니다. 이 파일의 미디어타입은: :mimetype.',
-    'import'         	    => '불러오기',
+    'import'         	    => '가져오기',
     'import_this_file'      => '필드 매핑하고 파일 처리',
     'importing'         	=> '가져오는 중',
     'importing_help'        => 'CSV 파일을 통해 자산, 자산, 부속품, 라이센스, 구성품, 소모품, 사용자을 가져올 수 있습니다. <br><br>CSV 파일은 쉼표로 구분되어야 하며, 헤더와 일치해야 합니다. <a href="https://snipe-it.readme.io/docs/importing" target="_new">CSVs 예제입니다.</a>.',
